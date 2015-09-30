@@ -1,0 +1,191 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".PowerFactorCorrection" >
+
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin" >
+
+
+        <com.appbrain.AppBrainBanner
+            android:id="@+id/app_brain_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:id="@+id/Instuctions_2"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/app_brain_banner"
+	       android:layout_alignParentTop="true"
+	       android:layout_alignParentLeft="true"
+	       android:text="@string/Below_unity_instructions"/>
+	   
+	   <TextView 
+	       android:id="@+id/Power_Tv_2"
+	       android:text="@string/power_Tv"
+	       android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/Instuctions_2"
+	       android:layout_marginTop="30dp"/>
+	   <EditText
+	       android:id="@+id/power_ET2"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:ems="10"
+		   android:inputType="numberDecimal"
+		   android:layout_marginLeft="50dp"
+		   android:layout_alignBaseline="@+id/Power_Tv_2"
+		   android:layout_toRightOf="@+id/Power_Tv_2"
+		   android:layout_alignParentRight="true"
+		   android:hint="@string/power_hint"/>   
+		   
+	   <TextView 
+	       android:id="@+id/Voltage_Tv_2"
+	       android:text="@string/volatge_Tv"
+	       android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/Power_Tv_2"
+	       android:layout_marginTop="30dp"/>
+	   
+	   <EditText
+	       android:id="@+id/Voltage_Et_2"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:ems="10"
+		   android:inputType="numberDecimal"
+		   android:layout_alignLeft="@+id/power_ET2"
+		   android:layout_alignBaseline="@+id/Voltage_Tv_2"
+		   android:layout_toRightOf="@+id/Voltage_Tv_2"
+		   android:layout_alignParentRight="true"
+		   android:layout_below="@+id/power_ET2"
+		   android:hint="@string/voltage_hint"/>
+	   
+	   <TextView 
+	       android:id="@+id/Frequency_Tv_2"
+	       android:text="@string/frequency_Tv"
+	       android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/Voltage_Tv_2"
+	       android:layout_marginTop="30dp"/>
+	   
+	   <EditText
+	       android:id="@+id/Frequency_Et_2"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:ems="10"
+		   android:inputType="numberDecimal"
+		   android:layout_alignLeft="@+id/power_ET2"
+		   android:layout_alignBaseline="@+id/Frequency_Tv_2"
+		   android:layout_toRightOf="@+id/Frequency_Tv_2"
+		   android:layout_alignParentRight="true"
+		   android:layout_below="@+id/Voltage_Et_2"
+		   android:hint="@string/frequency_hint"/>
+	   
+	   <TextView 
+	       android:id="@+id/Existing_pf_Tv"
+	       android:text="@string/current_pf_Tv"
+	       android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/Frequency_Tv_2"
+	       android:layout_marginTop="30dp"/>
+	   
+	   <EditText
+	       android:id="@+id/Existing_pf_Et"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:ems="10"
+		   android:inputType="numberDecimal"
+		   android:layout_alignLeft="@+id/power_ET2"
+		   android:layout_alignBaseline="@+id/Existing_pf_Tv"
+		   android:layout_toRightOf="@+id/Existing_pf_Tv"
+		   android:layout_alignParentRight="true"
+		   android:layout_below="@+id/Frequency_Et_2"
+		   android:hint="@string/power_factor_hint"/>
+	   
+	   <TextView 
+	       android:id="@+id/Required_pf_Tv"
+	       android:text="@string/required_pf_tv"
+	       android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/Existing_pf_Tv"
+	       android:layout_marginTop="30dp"/>
+	   
+	   <EditText
+	       android:id="@+id/Required_pf_Et"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:ems="10"
+		   android:inputType="numberDecimal"
+		   android:layout_alignLeft="@+id/power_ET2"
+		   android:layout_alignBaseline="@+id/Required_pf_Tv"
+		   android:layout_toRightOf="@+id/Required_pf_Tv"
+		   android:layout_alignParentRight="true"
+		   android:layout_below="@+id/Existing_pf_Et"
+		   android:hint="@string/power_factor_hint"/>
+	   
+	    <LinearLayout
+		        android:id="@+id/btn_layout_2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/Required_pf_Tv"
+		        android:layout_marginTop="20dp"
+		        android:orientation="horizontal" >
+				        
+				     <Button
+				        android:id="@+id/Calculate_below_unity_btn"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="@string/Calc_pf_corection" />
+				    
+				    <Button
+				        android:id="@+id/clear_below_unity_btn"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="@string/clear_btn" />
+				        
+		 </LinearLayout>
+				    
+	    <TextView
+	        android:id="@+id/Cap_tv_2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/btn_layout_2"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginTop="30dp"
+	        android:text="@string/Capaciatance_Tv" />
+	
+	    <EditText
+	        android:id="@+id/capacitance_et_2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/Cap_tv_2"
+	        android:layout_alignBottom="@+id/Cap_tv_2"
+	        android:layout_alignLeft="@+id/power_ET2"
+	        android:layout_alignParentRight="true"
+	        android:hint="@string/capcitance_hint"
+	        android:enabled="false"
+	        android:ems="10"
+	        android:inputType="numberDecimal" 
+	        android:textColor="@android:color/black"/>   
+	        
+	    </RelativeLayout>
+
+</ScrollView>

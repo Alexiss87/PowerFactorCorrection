@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- german strings -->
+    <string name="app_name">Power Factor Correction</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_help">helfen</string>
+    <string name="Calculate_pf_menu">Berechnen Power Factor</string>
+    <!-- Text Views -->
+    <string name="power_Tv">Macht(Kw)</string>
+    <string name="volatge_Tv">Spannung(V)</string>
+    <string name="frequency_Tv">Häufigkeit(Hz)</string>
+    <string name="power_factor_Tv">Power Factor(Pf)</string>
+    <string name="Capaciatance_Tv">Kapazität(μF)</string>
+    <string name="Instructions">Füllen Sie alle Felder, um die Kapazität benötigt, um den Leistungsfaktor auf UNITY (1) korrekt zu berechnen. </string>
+    <string name="power_hint">Kilowatts</string>
+    <string name="voltage_hint">Volts</string>
+    <string name="frequency_hint">Hertz</string>
+    <string name="capcitance_hint">μF</string>
+    <string name="power_factor_hint">Pf</string>
+    <!-- button views -->
+    <string name="Calc_pf_corection">Berechnen</string>
+    <string name="clear_btn">löschen</string>
+
+    <!-- dialog buttons -->
+    <string name="dialog_ok_btn">OK</string>
+
+    <!-- messages -->
+    <string name="dialog_message">Alle Felder müssen ausgefüllt werden, um die Kapazität zu berechnen. </string>
+    <string name="dialog_title">Informationen</string>
+    <string name="toast_measssge_pc">Power Factor muss zwischen 0 und 1</string>
+    <string name="help_messages">Diese App berechnet die erforderliche Kapazität zur Behebung eines bestimmten Leistungsfaktor für die Einheit
+			(1) oder auf einen Punkt unter Einheit .Alle Felder müssen ausgefüllt werden.
+			Die Stromversorgung sollte eingegeben werden in Kilowatt und der Leistungsfaktor
+			muss zwischen 0 und 1.
+			Diese App kann auch verwendet werden, um Berechnung der Leistung Faktor angesichts der offensichtlich
+			macht und die wahre Macht.
+			Wenn Sie Fragen oder Probleme
+			mit dieser App können Sie Kontakt zu mir auf alexis.o.simpson@gmail.com  </string>
+
+    <!-- needs to be translated -->
+    <string name="title_activity_correct_to_below_unity">Korrektur des Leistungsfaktors</string>
+    <string name="Below_unity_instructions">FÜLLEN SIE ALLE FELDER FÜR DIE BERECHNUNG DER KAPAZITÄT NOTWENDIG, UM DEN LEISTUNGSFAKTOR FÜR DIE EINHEIT(1) ODER UNTER EINHEIT</string>
+    <string name="current_pf_Tv">Vorhandenen Pf</string>
+    <string name="required_pf_tv">Erforderliche Pf</string>
+    <string name="title_activity_power_factor_calculation">PowerFactorCalculation</string>
+    <string name="Power_factor_calculator_intructions">FÜLLEN SIE DIE BEIDEN WERTE ZUR BERECHNUNG DER DRITTEN WERT</string>
+    <string name="Apparent_power_tv">Scheinleistung (KVA)</string>
+    <string name="Apparent_power_hint">KVA</string>
+    <string name="True_power_tv">Wahre Leistung(KW)</string>
+    <string name="title_Tab3">Berechnung Leistungsfaktor</string>
+    <string name="Message_fill_in_txtbox">Füllen Sie zwei von drei Textfelder</string>
+    <string name="Message_clear_one_txtBox">Klar ein Text box-steuerelement</string>
+    <string name="Messsage_powerFactor_greater_1">Power Factor muss kleiner sein als 1 oder gleich 1</string>
+    <string name="Message_truePower_greater_Apparent_power">Sichtbare Leistung muss größer sein als wahre Leistung</string>
+    <string name="Dialog_message_2">Es ist zu erwarten, dass sie ihre vorhandenen power factor; daher ihre bestehenden power factor 
+        				ist muss niedriger sein als der power factor benötigen Sie</string>
+    <string name="rate">Preis app</string>
+
+</resources>

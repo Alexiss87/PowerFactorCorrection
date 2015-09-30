@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PowerFactorCalculation" >
+           
+
+    <TextView
+        android:id="@+id/Intructions_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/Power_factor_calculator_intructions" />
+
+    <TextView
+        android:id="@+id/true_power_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Intructions_3"
+        android:layout_marginTop="30dp"
+        android:text="@string/True_power_tv" />
+
+    <EditText
+        android:id="@+id/True_power_Et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/true_power_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/true_power_tv"
+        android:ems="10"
+        android:hint="@string/power_hint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/Apparent_power_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/true_power_tv"
+        android:layout_marginTop="30dp"
+        android:text="@string/Apparent_power_tv" />
+
+    <EditText
+        android:id="@+id/Apparent_power_Et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Apparent_power_tv"
+        android:layout_alignLeft="@+id/True_power_Et"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Apparent_power_tv"
+        android:ems="10"
+        android:hint="@string/Apparent_power_hint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/Power_factor_Tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Apparent_power_tv"
+        android:layout_marginTop="30dp"
+        android:text="@string/power_factor_Tv" />
+
+    <EditText
+        android:id="@+id/Power_factor_Et_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Power_factor_Tv_3"
+        android:layout_alignLeft="@+id/True_power_Et"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Power_factor_Tv_3"
+        android:ems="10"
+        android:hint="@string/power_factor_hint"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Power_factor_Tv_3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Calculate_pf_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Calc_pf_corection" />
+
+        <Button
+            android:id="@+id/clear_pf_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clear_btn" />
+    </LinearLayout>
+
+    <com.appbrain.AppBrainBanner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_layout_3"
+        android:layout_marginTop="30dp"/>
+
+
+
+</RelativeLayout>

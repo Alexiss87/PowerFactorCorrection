@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">تصحيح عامل الطاقة</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_help">مساعدة</string>
+    <string name="Calculate_pf_menu">حساب الطاقة</string>
+    <!-- Text Views -->
+    <string name="power_Tv">السلطة (وات)</string>
+    <string name="volatge_Tv">الجهد الكهربي (V)</string>
+    <string name="frequency_Tv">التردد (Hz)</string>
+    <string name="power_factor_Tv">عامل الطاقة (الجبهة الوطنية)</string>
+    <string name="Capaciatance_Tv">السعة (μf)</string>
+    <string name="Instructions">املأ جميع الحقول على حساب السعة بحاجة إلى تصحيح عامل الطاقة إلى الوحدة (1)</string>
+    <string name="power_hint">Kilowatts</string>
+    <string name="voltage_hint">Volts</string>
+    <string name="frequency_hint">Hertz</string>
+    <string name="capcitance_hint">μF</string>
+    <string name="power_factor_hint">Pf</string>
+    <!-- button views -->
+    <string name="Calc_pf_corection">حساب</string>
+    <string name="clear_btn">إعادة تعيين</string>
+
+    <!-- dialog buttons -->
+    <string name="dialog_ok_btn">OK</string>
+
+    <!-- messages -->
+    <string name="dialog_message">يجب أن تكون جميع الحقول المملوءة في حساب السعة.</string>
+    <string name="dialog_title">المعلومات</string>
+    <string name="toast_measssge_pc">عامل الطاقة يجب أن يكون بين 0 و 1</string>
+    <string name="help_messages">هذا التطبيق باحتساب السعة المطلوبة لتصحيح أي عامل القدرة على الوحدة (1) أو نقطة دون الوحدة .جميع الحقول المطلوبة. إن السلطة يجب أن يكون إدخال في كيلو وات من الطاقة يجب أن يكون بين 0 و 1.هذا التطبيق يمكن استخدامه على حساب الطاقة بالنظر إلى السلطة والقوة الحقيقية. إذا كان لديك أي أسئلة أو مشكلات مع هذا التطبيق يمكنك الاتصال بي في alexis.o.simpson@gmail.com</string>
+    <!-- needs to be translated -->
+    <string name="title_activity_correct_to_below_unity">تصحيح عامل الطاقة</string>
+    <string name="Below_unity_instructions">املأ جميع الحقول على حساب السعة بحاجة إلى تصحيح عامل الطاقة إلى الوحدة(1) أو أقل وحدة</string>
+    <string name="current_pf_Tv">PF الموجودة</string>
+    <string name="required_pf_tv">المطلوب PF</string>
+    <string name="title_activity_power_factor_calculation">PowerFactorCalculation</string>
+    <string name="Power_factor_calculator_intructions">شغل في أي القيم على حساب ثلث قيمة</string>
+    <string name="Apparent_power_tv">السلطة الواضحة (أمبير)</string>
+    <string name="Apparent_power_hint">KVA</string>
+    <string name="True_power_tv">القوة الحقيقية (وات)</string>
+    <string name="title_Tab3">المطلوب PF</string>
+    <string name="Message_fill_in_txtbox">سد في اثنين من ثلاثة textboxes</string>
+    <string name="Message_clear_one_txtBox">مربع نص واحد واضح</string>
+    <string name="Messsage_powerFactor_greater_1">عامل قوة يجب أن تكون أقل من 1 أو 1</string>
+    <string name="Message_truePower_greater_Apparent_power">يبدو أن أكبر من القوة الحقيقية</string>
+    <string name="Dialog_message_2">ومن المتوقع أن تريد تحسين عامل الطاقة الموجودة; ومن ثم فإن السلطة الحالية هو عامل يجب أن يكون أقل من الطاقة تحتاجها</string>
+    <string name="rate">معدل التطبيق</string>
+
+</resources>

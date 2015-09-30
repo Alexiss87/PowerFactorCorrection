@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ตัวประกอบกำลัง</string>
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="action_help">ช่วย</string>
+    <string name="Calculate_pf_menu">การคำนวณค่า Power Factor</string>
+    <!-- Text Views -->
+    <string name="power_Tv">อำนาจ(Kw)</string>
+    <string name="volatge_Tv">แรงดันไฟฟ้า(V)</string>
+    <string name="frequency_Tv">ความถี่(Hz)</string>
+    <string name="power_factor_Tv">Power Factor(Pf)</string>
+    <string name="Capaciatance_Tv">ปริมาตร(μF)</string>
+    <string name="Instructions">กรอกข้อมูลในฟิลด์ทั้งหมดในการคำนวณ CAPACITANCE จำเป็นเพื่อแก้ไขปัจจัยอำนาจความสามัคคี (1) </string>
+    <string name="power_hint">Kilowatts</string>
+    <string name="voltage_hint">Volts</string>
+    <string name="frequency_hint">Hertz</string>
+    <string name="capcitance_hint">μF</string>
+    <string name="power_factor_hint">Pf</string>
+    <!-- button views -->
+    <string name="Calc_pf_corection">คำนวณ</string>
+    <string name="clear_btn">ล้าง</string>
+
+    <!-- dialog buttons -->
+    <string name="dialog_ok_btn">OK</string>
+
+    <!-- messages -->
+    <string name="dialog_message">ทุกฟิลด์ที่ต้องกรอกในการคำนวณประจุ </string>
+    <string name="dialog_title">ข้อมูล</string>
+    <string name="toast_measssge_pc">แฟกเตอร์กำลังต้องอยู่ระหว่าง 0 และ 1</string>
+    <string name="help_messages">แอปพลิเคชันนี้จะคำนวณการประจุกระแสไฟฟ้าของที่จำเป็นในการแก้ไขปัญหาด้านพลังงานให้กับ
+				Unity Connection ( 1 )หรือไปยังจุดที่ด้านล่าง Unity .ฟิลด์ทั้งหมดจะต้องระบุใน
+				ควรได้รับใน inputted กิโลวัตต์และ
+				Form Factor ที่ใช้จะต้องอยู่ระหว่าง 0 และ 1
+				แอปพลิเคชันนี้สามารถใช้ในการคำนวณด้านพลังงานให้
+				ใช้พลังงานอย่างชัดเจนและการใช้พลังงานที่แท้จริงยัง
+				หากคุณมีข้อสงสัยหรือปัญหาใดๆกับ
+				แอปพลิเคชันนี้คุณอาจทำการติดต่อฉันใน alexis.o.simpson@gmail.com </string>
+
+    <!-- needs to be translated -->
+    <string name="title_activity_correct_to_below_unity">โครงเครื่องที่ถูกต้อง</string>
+    <string name="Below_unity_instructions">กรอกข้อมูลในฟิลด์ Unity ทั้งหมดในการคำนวณความจุไฟฟ้าของที่จำเป็นในการใช้พลังงานที่ถูกต้องเป็นปัจจัยที่จะ Unity ( 1 )หรือด้านล่าง </string>
+    <string name="current_pf_Tv">ที่มีอยู่เดิม PF</string>
+    <string name="required_pf_tv">จำเป็นต้องใช้ PF</string>
+    <string name="title_activity_power_factor_calculation">PowerFactorCalculation</string>
+    <string name="Power_factor_calculator_intructions">เติมน้ำลงในใดๆทั้งสองค่าในการคำนวณที่สามที่</string>
+    <string name="Apparent_power_tv">ใช้พลังงานอย่างชัดเจน( kVA )</string>
+    <string name="Apparent_power_hint">KVA</string>
+    <string name="True_power_tv">ทรูมูฟ(กิโลวัตต์)</string>
+    <string name="title_Tab3">คำนวณกำลังไฟ Form Factor</string>
+    <string name="Message_fill_in_txtbox">เติมน้ำลงในสองสาม textboxes</string>
+    <string name="Message_clear_one_txtBox">ล้างหนึ่งกล่องข้อความ</string>
+    <string name="Messsage_powerFactor_greater_1">แฟกเตอร์กำลังจะต้องน้อยกว่าหรือเท่ากับ 1 ใน 1</string>
+    <string name="Message_truePower_greater_Apparent_power">ใช้พลังงานอย่างชัดเจนจะต้องมากกว่าพลังงานอย่างแท้จริง</string>
+    <string name="Dialog_message_2">คาดว่าจะเป็นของที่คุณต้องการเพื่อเพิ่ม ประสิทธิภาพ ด้านพลังงานที่มีอยู่ของคุณดังนั้นด้านพลังงานที่มีอยู่ของคุณจะต้องอยู่ในระดับต่ำกว่าปัจจัยพลังที่คุณต้องการ</string>
+    <string name="rate">แอปพลิเคชันอัตรา</string>
+</resources>

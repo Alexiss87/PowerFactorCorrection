@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+         Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels.
+    -->
+    <declare-styleable name="Theme.Pfc_theme">
+
+        <!--
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+        <attr name="actionBarItemBackground" format="reference" />
+        <attr name="actionBarStyle" format="reference" />
+        <attr name="popupMenuStyle" format="reference" />
+        <attr name="dropDownListViewStyle" format="reference" />
+        <attr name="actionBarTabStyle" format="reference" />
+        <attr name="actionDropDownStyle" format="reference" />
+        <attr name="actionModeBackground" format="reference" />
+        <attr name="actionModeSplitBackground" format="reference" />
+        <attr name="actionModeCloseButtonStyle" format="reference" />
+        <attr name="background" format="reference" />
+        <attr name="backgroundStacked" format="reference" />
+        <attr name="backgroundSplit" format="reference" />
+        -->
+        <attr name="actionBarStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

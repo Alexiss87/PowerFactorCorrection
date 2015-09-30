@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Corrección del factor de potencia</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_help">ayudar</string>
+    <string name="Calculate_pf_menu">Cálculo del factor de potencia</string>
+    <!-- Text Views -->
+    <string name="power_Tv">potencia(Kw)</string>
+    <string name="volatge_Tv">voltaje(V)</string>
+    <string name="frequency_Tv">frecuencia(Hz)</string>
+    <string name="power_factor_Tv">Factor de Potencia(Pf)</string>
+    <string name="Capaciatance_Tv">capacidad(μF)</string>
+    <string name="Instructions">Rellene todos los campos PARA CALCULAR LA CAPACIDAD NECESARIA PARA CORREGIR EL FACTOR DE POTENCIA a la unidad (1). </string>
+    <string name="power_hint">Kilowatts</string>
+    <string name="voltage_hint">Volts</string>
+    <string name="frequency_hint">Hertz</string>
+    <string name="capcitance_hint">μF</string>
+    <string name="power_factor_hint">Pf</string>
+    <!-- button views -->
+    <string name="Calc_pf_corection">calcular</string>
+    <string name="clear_btn">Borrar</string>
+
+    <!-- dialog buttons -->
+    <string name="dialog_ok_btn">OK</string>
+
+    <!-- messages -->
+    <string name="dialog_message">Todos los campos deben ser llenados para calcular la capacitancia. </string>
+    <string name="dialog_title">información</string>
+    <string name="toast_measssge_pc">Factor de potencia debe estar entre 0 y 1</string>
+    <string name="help_messages">Esta aplicación calcula la capacidad necesaria para corregir un determinado factor de potencia de la unidad (
+1) o a un punto por debajo de la unidad .Todos los campos son necesarios para ser rellenados.
+La alimentación debe ser introducido en kilovatios y el factor de potencia
+debe estar entre 0 y 1.
+Esta aplicación también se puede utilizar para calcular el factor de potencia
+potencia aparente y el verdadero poder.
+Si usted tiene cualquier pregunta o problemas
+con esta app puede ponerse en contacto conmigo en alexis.o.simpson@gmail.com </string>
+
+    <!-- needs to be translated -->
+    <string name="title_activity_correct_to_below_unity">Factor de potencia correcta</string>
+    <string name="Below_unity_instructions">RELLENE TODOS LOS CAMPOS PARA EL CÁLCULO DE LA CAPACIDAD NECESARIA PARA CORREGIR EL FACTOR DE POTENCIA DE LA UNIDAD(1) O POR DEBAJO DE LA UNIDAD </string>
+    <string name="current_pf_Tv">Pf Existentes</string>
+    <string name="required_pf_tv">Es necesario Pf</string>
+    <string name="title_activity_power_factor_calculation">PowerFactorCalculation</string>
+    <string name="Power_factor_calculator_intructions">LLENAR EN CUALQUIERA DE LOS DOS VALORES PARA CALCULAR EL TERCER VALOR</string>
+    <string name="Apparent_power_tv">Potencia aparente (KVA)</string>
+    <string name="Apparent_power_hint">KVA</string>
+    <string name="True_power_tv">Potencia real (KW)</string>
+    <string name="title_Tab3">Calculan el factor de potencia</string>
+    <string name="Message_fill_in_txtbox">Llenar en dos de tres cuadros</string>
+    <string name="Message_clear_one_txtBox">Borrar un textbox</string>
+    <string name="Messsage_powerFactor_greater_1">Factor de potencia debe ser inferior a 1 o igual a 1</string>
+    <string name="Message_truePower_greater_Apparent_power">Potencia aparente debe ser mayor que la verdadera potencia</string>
+    <string name="Dialog_message_2">Por lo que se espera que desea mejorar su factor de potencia; de ahí su factor de potencia 
+        							debe ser menor que el factor de potencia que necesita</string>
+    <string name="rate">Tipo app</string>
+
+</resources>
